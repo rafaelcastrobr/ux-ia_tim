@@ -1,0 +1,50 @@
+.main {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+
+
+  .main_poster {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+
+    .img {
+      width: 170px;
+      height: 250px;
+      margin-bottom: 24px;
+      border-radius: 10%;
+      transition: 0.5s;
+
+
+      &:hover {
+        transform: scale(1.1)
+      }
+    }
+
+    .main_stars {
+      display: flex;
+      flex-direction: row;
+  
+  
+      p {
+        font-size: 30px;
+      }
+    }
+
+  }
+
+  .main_content {
+    padding: 15px;
+
+
+    h1 {
+      margin-bottom: 20px;
+    }
+  }
+
+  
+
+
+
+}
